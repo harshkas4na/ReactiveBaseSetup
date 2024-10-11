@@ -1,0 +1,23 @@
+{
+  "name": "reactive-contracts",
+  "version": "1.0.5",
+  "description": "A package containing reusable Solidity contracts for Foundry projects",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "files": [
+    "src",
+    "scripts",
+    "TECH.md"
+  ],
+  "keywords": ["foundry", "solidity", "contracts"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
